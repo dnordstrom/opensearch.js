@@ -9,5 +9,5 @@
     <Param name="query" value="{searchTerms}"/>
     <Param name="prf" value="913d670a3438f8fa0936ad78f4bb805f"/>
   </Url>
-<moz:SearchForm>https://www.startpage.com/</moz:SearchForm>
+  <moz:SearchForm>https://www.startpage.com/</moz:SearchForm>
 </OpenSearchDescription>
