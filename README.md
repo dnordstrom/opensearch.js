@@ -8,9 +8,10 @@ A search provider installer for [OpenSearch](http://www.opensearch.org) capable 
 
 ## To do
 
-* Add simple bookmarklet to inject installer script on current page.
-* Extend bookmarklet to show available providers, or create XML on-the-fly.
-* Add guide for setting up provider for [Startpage](https://www.startpage.com/) with custom settings URL.
+1. Create simple bookmarklet to inject installer script on current page.
+2. Extend bookmarklet with modal dialog box listing available providers, and add feature to build XML on-the-fly.
+3. Extend bookmarklet with installer wizard for setting up [Startpage](https://www.startpage.com/) provider with custom settings in URL parameters.
+4. Continue extending bookmarklet with more providers and create a framework for easily contributing installers.
 
 ## Usage
 
