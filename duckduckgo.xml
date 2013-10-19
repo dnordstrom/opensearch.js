@@ -7,15 +7,15 @@
   <Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB4UlEQVQ4jX2QvWuTURSHf/9AtmK1g1gVxUFFBBU/NnHqJHTMpoPiIFmUDkJxdxClU8HBLgqKgxRC1ZQOkVBDSNOmYtJamzQhpubzzZv3I3kcYovxvnjh4cDlnuee85Mk+fWf9Lod/j1+q87u49uULovyFRNJkrX4jq7jUWuaAst2WUgWyc0+Z/uiKFwyUaNls5AssrZRpdfvDwkaLZu1jSo7uU0qkQm2L8hA9abNbt0yft+fwvGwHI/mm1m+n5eBAOhDy/Zo2Z7RHIpEufUyTX17i/w5GQgGzXsPf7VdQxCKRLEcj29nZTAkCEWiQwKApu3StF0c1yN7SqyfEaU7wpoTndd7KxC8Qt+vgu+Cb+Gt3sWaE35CsCnICS8m5LebwenVX8BXwbog+6duDWrnrdicFCsnhNzKjtnceEV/RfQzovteOPPCXRC1p2L9qkgdE6njA9ROJ0xB5RFkhPNJJI/+H1Vmpk2Bk4f8YPT8pFg+8hfjovxA1J6JL+NChakwQTkUpsIU7wvng/Diwk+LXkaQF72UKE+JxGGhH/cmCMqhMjNNfEzEx8TySZELD1i9of37+JhQ9toBgnJopxN8Pn2IpVGxeFAsjQYjSSo9eWgI3MoOqZvXiY2IjyMiFoAk/QbkIfpi7R6kbgAAAABJRU5ErkJggg==</Image>
   <Url type="text/html" method="POST" template="https://www.duckduckgo.com/">
     <Param name="q" value="{searchTerms}"/>
-    <Param name="k1" value="-1"/>             <!-- Advertisements -->
-    <Param name="kp" value="-1"/>             <!-- Safe Search -->
-    <Param name="kh" value="1"/>              <!-- HTTPS -->
-    <Param name="kg" value="p"/>              <!-- POST -->
-    <Param name="kd" value="1"/>              <!-- Redirect -->
-    <Param name="k4" value="-1"/>             <!-- Sidebar -->
-    <Param name="kk" value="1"/>              <!-- Shortcuts -->
-    <Param name="ke" value="-1"/>             <!-- Feedback -->
-    <Param name="kr" value="-1"/>             <!-- Top Links -->
+    <Param name="k1" value="-1"/> <!-- Advertisements -->
+    <Param name="kp" value="-1"/> <!-- Safe Search -->
+    <Param name="kh" value="1"/>  <!-- HTTPS -->
+    <Param name="kg" value="p"/>  <!-- POST -->
+    <Param name="kd" value="1"/>  <!-- Redirect -->
+    <Param name="k4" value="-1"/> <!-- Sidebar -->
+    <Param name="kk" value="1"/>  <!-- Shortcuts -->
+    <Param name="ke" value="-1"/> <!-- Feedback -->
+    <Param name="kr" value="-1"/> <!-- Top Links -->
   </Url>
-<moz:SearchForm>https://www.duckduckgo.com/</moz:SearchForm>
+  <moz:SearchForm>https://www.duckduckgo.com/</moz:SearchForm>
 </OpenSearchDescription>
