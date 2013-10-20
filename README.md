@@ -1,6 +1,6 @@
 ## Introduction
 
-A search provider installer for [OpenSearch](http://www.opensearch.org) capable browsers---including provider XML for [Startpage](https://www.startpage.com/), [DuckDuckGo](https://www.duckduckgo.com/), [DeviantArt](https://www.deviantart.com/) People Search, etc. This initial version is just a simple installer script, to be loaded by a bookmarklet.
+A search provider installer for [OpenSearch](http://www.opensearch.org) capable browsers—including provider XML for [Startpage](https://www.startpage.com/), [DuckDuckGo](https://www.duckduckgo.com/), [DeviantArt](https://www.deviantart.com/) People Search, etc. This initial version is just a simple installer script, to be loaded by a bookmarklet.
 
 **Compatibility:** OpenSearch is implemented in Firefox (2+), Chrome, and IE (7+). Opera does not support OpenSearch&mdash;however, Opera 17+ Developer Previews feature a shiny new search engine manager. An Opera 18 preview is [available](http://my.opera.com/desktopteam/blog/) at the time of writing.
 
@@ -36,7 +36,7 @@ This is a simple method, but may be blocked if plugins such as NoScript for Fire
 
 <a href="http://www.wtfpl.net/"><img alt="WTFPL" src="http://www.wtfpl.net/wp-content/uploads/2012/12/logo-220x1601.png" height="96" width="132"></a>
 
-Copyright © 2000 Daniel Nordstrom &lt;mrnordstrom@me.com&gt;<br>
+Copyright © 2013 Daniel Nordstrom &lt;mrnordstrom@me.com&gt;<br>
 This work is free. You can redistribute it and/or modify it under the
 terms of the Do What The Fuck You Want To Public License, Version 2,
 as published by Sam Hocevar. See the COPYING file for more details.
