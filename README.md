@@ -29,7 +29,7 @@ This is a simple method, but may be blocked if plugins such as NoScript for Fire
 ### Install by hand &middot; &middot; &middot; console
 
 1. Load your browser's console. In Firefox, it's located at *Tools* -> *Web Developer* -> *Web Console*.
-2. Call `window.external.AddSearchProvider(url)` with the URL to a provider XML file. For the DeviantArt People Search provider: `window.external.AddSearchProvider("https://gist.github.com/dnordstrom/6632592/raw/eb09e24d9624d1927f58e3516489834b44451027/deviantart_people_search_plugin-20130919.xml");`.
+2. Call `window.external.AddSearchProvider(url)` with the URL to a provider XML file. For the Startpage provider:<br><br>`window.external.AddSearchProvider("https://raw.github.com/dnordstrom/kit.opensearch/master/startpage.xml");`<br>
 3. You will receive a confirmation dialog which completes the installation.
 
 ## License
