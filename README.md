@@ -22,7 +22,7 @@ This is a simple method, but may be blocked if plugins such as NoScript for Fire
 *Due to [security concerns](https://trac.torproject.org/projects/tor/wiki/doc/ImportantGoogleChromeBugs), I cannot recommend Google Chrome.*
 
 1. Drag <a href="javascript:(function(){var%20sUrl=prompt('Enter%20URL%20to%20JavaScript%20file');if(sUrl){var%20s=document.createElement('script');s.setAttribute('src',sUrl);document.getElementsByTagName('body')[0].appendChild(s);alert('Script%20injected!');}})();">this link</a> into your bookmarks&mdash;it's a bookmarklet that prompts for a URL to a Javascript file to inject, and appends a `script` tag to the document `body`.
-2. Click it, then paste the URL to the installer (`install.js`), which should take care of the rest.
+2. Click it, then paste [this URL](https://github.com/dnordstrom/kit.opensearch/raw/master/install.example.js) to the installer (`install.sample.js`), which should take care of the rest.
 
 **Note:** At this time, the installer simply loads the DeviantArt People Search provider.
 
