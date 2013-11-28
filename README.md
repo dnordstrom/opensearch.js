@@ -1,6 +1,6 @@
 ## Introduction
 
-A search provider installer for [OpenSearch](http://www.opensearch.org) capable browsers—including provider XML for [Startpage](https://www.startpage.com/), [DuckDuckGo](https://www.duckduckgo.com/), [DeviantArt](https://www.deviantart.com/) People Search, etc. This initial version is just a simple installer script, to be loaded by a bookmarklet.
+A search provider installer for [OpenSearch](http://www.opensearch.org) capable browsers—including provider XML for [Startpage](https://www.startpage.com/), [Ixquick](https://www.ixquick.com/), [DuckDuckGo](https://www.duckduckgo.com/), [DeviantArt](https://www.deviantart.com/) People Search, etc. This initial version is just a simple installer script, to be loaded by a bookmarklet.
 
 **Compatibility:** OpenSearch is implemented in Firefox (2+), Chrome, and IE (7+). Opera does not support OpenSearch&mdash;however, Opera 17+ Developer Previews feature a shiny new search engine manager. An Opera 18 preview is [available](http://my.opera.com/desktopteam/blog/) at the time of writing.
 
