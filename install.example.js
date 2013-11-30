@@ -17,7 +17,7 @@
      */
     window.external.AddSearchProvider(
       "https://github.com/dnordstrom/kit.opensearch/raw/master/" +
-      window.location.hash +
+      window.location.hash.substr(1) +
       ".xml"
     )
     
