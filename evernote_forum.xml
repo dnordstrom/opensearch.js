@@ -2,14 +2,14 @@
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
                        xmlns:moz="http://www.mozilla.org/2006/browser/search/">
   <ShortName>Evernote Forum</ShortName>
-  <Description>Evernote Forum Search, adds discussion.evernote.com over HTTPS (POST) to your OpenSearch capable browser.</Description>
+  <Description>Evernote Forum Search, adds discussion.evernote.com (POST) to your OpenSearch capable browser.</Description>
   <InputEncoding>UTF-8</InputEncoding>
   <Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADvklEQVQ4jQXBfUzUdQDA4R81W/2hsZrVWsh8uZolRIw3O+XVAw4QuPPgeLvjgHvjOLjjuIOD447XSPNtRZiKGsGUielGuUW6hYPKoplFvJQ6hpml3LdlrFzQ1qfnkepndDPGmd3LTQsVon3RJrp+rhfvrPjEu7SLXvziwIMmEViwi8BinfAt2ETTTbNwzulE9bx6WfdlxpRk/FGJc7GY5kUzvastHMGPbbyc7I5M1Afy6brTwBDdHMVPLz56HjjwLFRhm9dQPp+GZL+xR7gWSuldaabrdi3at1XEpcWxQdpMRGg0u0vyqBuxUD1owDFmovO+ne7fa3Dd1GGaz16SrHM5wne3jL3/mMl1ZeE55CSrJg35tkTUWhVqpZrs+DxyXleRLMtC7y5j34oN10IBxnllULLMpouehzqKz6QTr4hF25qLImsX+dkq9OV6TCYTZpMJs8VEUV4plYWVHPrFhvuuCv0PO4OSdUYhDv9XRUZFKs9KG4jcHEVORg56gw6T0YTdbsfprMduc2A0mDHqzBy50YDvtwLKru0ISpXXkkU/VgxtKsLWykhJS0Wj0WA0Gqmtq8Xt9uD1NtP5pp86ex0VWgvHZ5vouL+Hoq9jglL51URx7F8LbSMmNj79MgrFLoq0WsxmMy6XC29jCz6fj+HJwwS6vZRkGzk+7aH7XgEFE1FBqeRKjHgrqOHEd162hceSlJhESWkxNpsVW7UdT4OXjo42vI3NuOrd6NRVvPeNi85f88n/bGtQ0lx+RTivp/DRagCD3sCmddGkbleiTFLT5G+gq6cVS5GTmsoGHHUO9JpK+r91E1hUkvPJlqC0+6JMVIwnsH+xkHP3AvR9GKBtv5sKrZWRqYNcXunhwHkPHb1uilXlmPXVDN7y4vh+B9mjsqCUcSFcFI5FUDOZROeNXAb+NvHxajOfs5ezSx5UFjUHT/u4wyCa/CIqisyc/aMV3ZVtZF7YGJRSzqwXmefDKLkUhXVCjuOLZBqvpnP8r0K6ho0oI8sZvv0G5/70sT0ihSaPm1MP7eSObiLx9FNBKWHgMbFzaC2ZI+GoRmXoLkVRPSGn81YG/V+1kBmtJS5ZjuzFaBSyQs5P92G9/hoZZ18g4dQTS1L8wKPEHQshcSCUtDPryRoJo+DiVgxjr9I1l8fhTxvw+Ktx+628P7mP9p/yUQw/Q9LJdSR88AhS5KE1c5F90nJ0X4iI6Vsj4o4+LuQnnxSpA8+JzKHnhXEqQnjmdgrPbKIoGd8i5KfWCvmJUBHbH7L8Uqc0/T/sN1ZRR7rS0wAAAABJRU5ErkJggg==</Image>
-  <Url type="text/html" method="GET" template="https://discussion.evernote.com/index.php">
+  <Url type="text/html" method="POST" template="http://discussion.evernote.com/index.php">
     <Param name="main_search" value="{searchTerms}"/>
     <Param name="app" value="core"/>
     <Param name="module" value="search"/>
     <Param name="do" value="search"/>
   </Url>
-  <moz:SearchForm>https://discussion.evernote.com</moz:SearchForm>
+  <moz:SearchForm>http://discussion.evernote.com/</moz:SearchForm>
 </OpenSearchDescription>
